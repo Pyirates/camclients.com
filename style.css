@@ -1,0 +1,52 @@
+.topbar{
+    background-color: #131720;
+}
+.topbar .topbartoggle{
+    font-weight: 700;
+    font-family: arial;
+}
+.topbar-search form input{
+    padding: 3px 10px; 
+    border-radius: 5px; 
+    outline: none;
+    background-color: #151F30; 
+    border: none; 
+    color: #fff !important; 
+    font-family: inter;
+}
+.topbar-search button{
+    font-weight: 500;
+    font-family: inter;
+}
+.topbar-points .topbaricon01 {
+    margin-right: 5px;
+    width: 20px;    
+}
+.topbar-points .topbaricon02{
+    margin-left: 15px;
+    width: 20px;
+}
+.main-navigation{
+    background-color: #8F0C33;
+}
+.main-navigation ul li{
+    padding: 0;
+    margin: 0;
+}
+.main-navigation ul li a{
+color: #FFF;
+text-align: center;
+font-family: Arial;
+font-size: 17px;
+font-weight: 700;
+display: inline-block;
+padding: 10px 15px !important;
+transition: 0.4s;
+}
+.main-navigation ul li a:hover{
+background-color: #FF0000;
+color: #fff;
+}
+.main-navigation ul li a:active{
+background-color: #FF0000;
+}
