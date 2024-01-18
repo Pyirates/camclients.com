@@ -48,5 +48,5 @@ background-color: #FF0000;
 color: #fff;
 }
 .main-navigation ul li a:active{
-background-color: #FF0000;
+background-color: #FF0000 !important;
 }
