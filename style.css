@@ -65,6 +65,7 @@ background-color: #FF0000 !important;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .camclients-hero-section::after{
     content: "";
