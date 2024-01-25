@@ -1,3 +1,7 @@
+img{
+    width: 100%;
+
+}
 .topbar{
     background-color: #131720;
 }
@@ -66,6 +70,7 @@ background-color: #FF0000 !important;
     justify-content: center;
     align-items: center;
     position: relative;
+    overflow: hidden;
 }
 .camclients-hero-section::after{
     content: "";
@@ -108,4 +113,32 @@ font-size: 45px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+}
+
+.camclients-new-creator{
+    background-color: #131720;
+    overflow: hidden;
+}
+.creator-heading{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: rubik;
+    color:#fff;
+}
+.creator-carousel-items{}
+.creator-carousel-items .carousel-single-card{}
+.creator-carousel-items .carousel-single-card .carousel-single-image img{
+    border: 8px solid #D32A2A;
+    border-radius: 50%;
+}
+.creator-carousel-items .carousel-single-card .carousel-icons img{
+    max-width: 40px;
+    width: 100%;
+}
+.creator-carousel-items .carousel-single-card .carousel-user-name h3{
+color: #BFBFBF;
+text-align: center;
+font-family: Rubik;
+font-size: 20px;
+font-weight: 500;
 }
