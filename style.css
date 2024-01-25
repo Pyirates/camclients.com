@@ -57,16 +57,16 @@ background-color: #FF0000 !important;
     bottom: 2px;
 }
 .camclients-hero-section{
-    overflow: hidden;
+    background-image: url(./Images/Camclients\ hero\ section\ backgound\ image.webp);
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.camclients-hero-section img{
-    width: 235px !important;
-}
-.camclients-hero-content{
-    position: relative;
-    z-index: -1;
-}
-.camclients-hero-content::after{
+.camclients-hero-section::after{
     content: "";
     height: 100%;
     width: 100%;
@@ -76,11 +76,16 @@ background-color: #FF0000 !important;
     left: 0;
     z-index: 1;
 }
-.camclient-hero-text {
-    position: absolute;
-    top: 21%;
-    left: 18%;
-    z-index: 10;
+.camclients-hero-section img{
+    width: 260px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.camclients-hero-content{
+    position: relative;
+    z-index: 11;
 }
 .camclient-hero-text h1{
 color: #FFF;
@@ -94,7 +99,7 @@ line-height: normal;
 letter-spacing: 12.8px;
 }
 .camclient-hero-text h2{
-    color: #FFF;
+color: #FFF;
 text-align: center;
 text-shadow: 0px 0px 8px #F00;
 font-family: Sitka;
