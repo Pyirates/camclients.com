@@ -60,6 +60,12 @@ background-color: #FF0000 !important;
     position: relative;
     bottom: 2px;
 }
+.nav-item-live IMG{
+    position: relative;
+    top: 2px;
+    left: 0px;
+    width: 14px !important;
+}
 .camclients-hero-section{
     background-image: url(./Images/Camclients\ hero\ section\ backgound\ image.webp);
     background-size: cover;
