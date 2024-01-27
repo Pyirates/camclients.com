@@ -247,3 +247,29 @@ font-size: 18px;
 font-weight: 500;
 margin-top: 10px;
 }
+
+.camclients-featured-callers{
+    background-color: #131720;
+}
+.camclients-featured-callers-profile{}
+.featured-active-caller{}
+.featured-active-caller-image img{
+    max-width: 220px;
+    width: 100%;
+}
+.featured-caller-icon img{
+    max-width: 20px;
+    width: 100%;
+    margin:0 10px;
+}
+.featured-active-caller-name h3{
+color: #E8E8E8;
+font-family: Rubik;
+font-size: 18px;
+font-weight: 500;
+margin-top: 20px;
+}
+.featured-booked-caller-image img{
+    max-width: 400px;
+    width: 100%;
+}
