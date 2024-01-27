@@ -197,9 +197,8 @@ font-weight: 400;
 }
 .camclients-Trending-creator-carousel-buttons{
     clear: both;
-    align-items: center;
     position: relative;
-    top: 90px !important;
+    top: 110px !important;
 }
 .camclients-Trending-creator-carousel-buttons .left-button{
     float: left;
@@ -224,6 +223,17 @@ font-weight: 400;
 .camclients-Trending-carousel-single-image img{
     max-width: 140px;
     width: 100%;
+    cursor: pointer;
+    z-index: 9;
+}
+.camclients-Trending-carousel-single-image .trending-creator-status-icon{
+    max-width: 25px;
+    width: 100%;
+    cursor: pointer;
+    z-index: 9;
+    position: relative;
+    left: 60px;
+    top: 30px;
 }
 .camclients-Trending-carousel-icons img{
     max-width: 35px;
@@ -235,4 +245,5 @@ text-align: center;
 font-family: Rubik;
 font-size: 18px;
 font-weight: 500;
+margin-top: 10px;
 }
