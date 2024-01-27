@@ -128,7 +128,17 @@ line-height: normal;
 .creator-carousel-items{}
 .creator-carousel-items .carousel-single-card{}
 .creator-carousel-items .carousel-single-card .carousel-single-image img{
-    border: 8px solid #D32A2A;
+    border: 5px solid #D32A2A;
+    border-radius: 50%;
+    max-width: 170px;
+    width: 100%;
+}
+.creator-carousel-items .carousel-single-card .carousel-single-image.active-creator img{
+    border: 5px solid #03FF5C80;
+    border-radius: 50%;
+}
+.creator-carousel-items .carousel-single-card .carousel-single-image.booked-creator img{
+    border: 5px solid #FFE42199;
     border-radius: 50%;
 }
 .creator-carousel-items .carousel-single-card .carousel-icons img{
@@ -140,5 +150,36 @@ color: #BFBFBF;
 text-align: center;
 font-family: Rubik;
 font-size: 20px;
+font-weight: 500;
+}
+
+.camclients-Trending-creator{
+    background-color: #131720;
+}
+.camclients-Trending-creator .camclients-Trending-creator-heading{
+color: rgba(255, 239, 55, 0.48);
+font-family: Rubik;
+font-size: 36px;
+font-weight: 400;
+}
+.camclients-Trending-user-name{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: rubik;
+    color:#fff;
+}
+.camclients-Trending-carousel-single-image img{
+    max-width: 140px;
+    width: 100%;
+}
+.camclients-Trending-carousel-icons img{
+    max-width: 35px;
+    width: 100%;
+}
+.camclients-Trending-user-name h3{
+color: #E8E8E8;
+text-align: center;
+font-family: Rubik;
+font-size: 18px;
 font-weight: 500;
 }
