@@ -4,6 +4,9 @@
 img{
     width: 100%;
 }
+h1,h2,h3,h4,h5,h6,a{
+    font-family: Rubik;
+}
 .sec-headings{
 color: #FFF;
 font-family: Rubik;
@@ -292,8 +295,8 @@ letter-spacing: 12.8px;
 .top-models-content{
     border-radius: 30%;
 }
-.yellow-icon{
-    color: #FFC700;
+.green-icon{
+    color: #03FF5C;
 }
 .white-icon{
     color: #FFE4C4;
@@ -331,4 +334,39 @@ margin-top: 20px;
 .video-callers-icons{
     margin-top: -35px;
     z-index: 10;
+}
+
+.camclients-captains{}
+.camclients-captains .captains-profile{}
+.camclients-captains .captains-images{}
+.camclients-captains .captains-images img{}
+.camclients-captains .captains-details{}
+.camclients-captains .captains-details h3{
+    font-size: 15px;
+    color: #fff;
+    transition: 0.3s;
+}
+.camclients-captains .captains-details h3:hover{
+    color: #FF2363;
+}
+.camclients-captains .captains-details h6{
+    font-size: 12px;
+    color: #EF377A;
+}
+.captains-details .contact-icons {
+    font-size: 15px;
+    display: inline-block;
+    padding: 4px 8px;
+    background: #FFFFFF1A;
+    margin-top: 8px;
+    margin-right: 2px;
+}
+.captains-details .white-icon {
+    border-radius: 10px 25px 25px 25px;
+}
+.captains-details .green-icon {
+    border-radius: 25px 25px 25px 10px;
+}
+.captains-details .video-icon{
+    border-radius: 25px 25px 10px 25px;
 }
