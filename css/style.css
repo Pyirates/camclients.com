@@ -431,3 +431,103 @@ margin-top: 20px;
     border-radius: 25px 25px 10px 25px;
     color: #D32A2A;
 }
+
+.feed-load-more{
+    text-align: center;
+    padding-top: 30px;
+}
+.feed-load-more button {
+    background-color: #EF377A;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    padding: 7px 23px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+.camclients-footer{
+    background: rgb(21,31,48);
+    background: linear-gradient(180deg, rgba(21,31,48,1) 35%, rgba(19,23,32,1) 100%);
+}
+.camclients-footer .footer-logo{}
+.camclients-footer .footer-logo img{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.camclients-footer .footer-text{}
+.camclients-footer .footer-text p{
+    font-family: inter;
+    font-size: 14px;
+    font-weight: 400;
+    color: #E0E0E0;
+}
+.camclients-footer .footer-social{}
+.camclients-footer .footer-social span {
+    font-size: 20px;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 37px;
+    border-radius: 50%;
+}
+.camclients-footer .footer-social .facebook {
+    color: #fff;
+    background: #3B5998;
+}
+.camclients-footer .footer-social .twitter {
+    color: #fff;
+    background: #55ACEE;
+}
+.camclients-footer .footer-social .insta {
+    color: #000;
+    background: #fff;
+}
+.camclients-footer .footer-social .vk {
+    color: #fff;
+    background: #4C6C91;
+}
+.camclients-footer .footer-social .tiktok {
+    color: #fff;
+    background: #010101;
+}
+.footer-links{}
+.footer-links h4{
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+.footer-links ul{
+    list-style: none;
+    margin-left: 0 !important;
+}
+.footer-links ul li{
+   padding: 5px 0;
+}
+.footer-links ul li a {
+    color: #fff;
+    font-family: inter;
+    font-size: 14px;
+}
+
+.copyright{
+    border-top: 1px solid #172337;
+    
+}
+.copyright p{
+    color: #E0E0E0;
+    font-family: inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+.copyright a{
+    color: #E0E0E0;
+    font-family: inter;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 10px;
+}
