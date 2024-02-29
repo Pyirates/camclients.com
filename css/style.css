@@ -370,3 +370,64 @@ margin-top: 20px;
 .captains-details .video-icon{
     border-radius: 25px 25px 10px 25px;
 }
+.camclients-feed{}
+.camclients-feed .feed-content{}
+.camclients-feed .feed-content .card {
+    background-color: #FFFFFF26;
+    padding: 10px;
+    border-radius: 25px;
+}
+.camclients-feed .feed-content .card-image{
+    position:relative;
+}
+.camclients-feed .feed-content .card-image h4 {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #EF377A;
+}
+.camclients-feed .feed-content .card-image img{}
+.camclients-feed .feed-content .card-content{}
+.camclients-feed .feed-content .card-content .card-profile img {
+    width: 100% !important;
+    border-radius: 50%;
+    margin-left: 10px;
+}   
+.camclients-feed .feed-content .card-content p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 17px;
+}
+.camclients-feed .feed-content .card-content .white-icon{
+    font-size: 15px;
+    display: inline-block;
+    padding: 4px 8px;
+    background: #FFFFFF1A;
+    margin-top: 8px;
+    margin-right: 2px;
+    border-radius: 10px 25px 25px 25px;
+    color: #A19221;
+}
+.camclients-feed .feed-content .card-content .green-icon{
+    font-size: 15px;
+    display: inline-block;
+    padding: 4px 8px;
+    background: #FFFFFF1A;
+    margin-top: 8px;
+    margin-right: 2px;
+    border-radius: 25px 25px 25px 10px;
+    color: #0B8B3E;
+}
+.camclients-feed .feed-content .card-content .video-icon{
+    font-size: 15px;
+    display: inline-block;
+    padding: 4px 8px;
+    background: #FFFFFF1A;
+    margin-top: 8px;
+    margin-right: 2px;
+    border-radius: 25px 25px 10px 25px;
+    color: #D32A2A;
+}
