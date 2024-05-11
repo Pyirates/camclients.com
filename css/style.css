@@ -39,14 +39,14 @@ font-weight: 500;
 a{
     text-decoration: none;
 }
-.camclients-topbar .topbar-dropdown ul{
+.pyirates-topbar .topbar-dropdown ul{
     list-style: none;
 }
-.camclients-topbar .topbar-dropdown ul li {
+.pyirates-topbar .topbar-dropdown ul li {
     position: relative;
     display: inline-block;
 }
-.camclients-topbar .topbar-dropdown ul li a{
+.pyirates-topbar .topbar-dropdown ul li a{
     text-decoration: none;
     display: inline-block;
     color: #fff;
@@ -55,7 +55,7 @@ a{
     font-weight: 700;
     padding: 10px 15px;
 }
-.camclients-topbar .topbar-dropdown ul li ul {
+.pyirates-topbar .topbar-dropdown ul li ul {
     padding: 0 !important;
     opacity: 0;
     visibility: hidden;
@@ -67,21 +67,21 @@ a{
     border-radius: 5px;
     transition: 0.3s;
 }
-.camclients-topbar .topbar-dropdown ul li:hover ul{
+.pyirates-topbar .topbar-dropdown ul li:hover ul{
     opacity:1;
     visibility: visible;
     display: block;
     z-index: 1;
     border-radius: 5px;
 }
-.camclients-topbar .topbar-dropdown ul li ul li{
+.pyirates-topbar .topbar-dropdown ul li ul li{
     display: inline-block;
 }
-.camclients-topbar .topbar-dropdown ul li ul li a{
+.pyirates-topbar .topbar-dropdown ul li ul li a{
     display: inline-block;
     width: 100%;
 }
-.camclients-topbar .topbar-dropdown ul li ul li a:hover{
+.pyirates-topbar .topbar-dropdown ul li ul li a:hover{
     background-color: #df3d3d;
     border-radius: 5px;
 }
@@ -167,8 +167,8 @@ background-color: #FF0000 !important;
     width: 14px !important;
 }
 
-.camclients-hero-section{
-    background-image: url(./../Images/Camclients\ hero\ section\ backgound\ image.webp);
+.pyirates-hero-section{
+    background-image: url(./../Images/pyirates\ hero\ section\ backgound\ image.webp);
     background-size: cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -179,7 +179,7 @@ background-color: #FF0000 !important;
     position: relative;
     overflow: hidden;
 }
-.camclients-hero-section::after{
+.pyirates-hero-section::after{
     content: "";
     height: 100%;
     width: 100%;
@@ -189,7 +189,7 @@ background-color: #FF0000 !important;
     left: 0;
     z-index: 1;
 }
-.camclients-hero-content{
+.pyirates-hero-content{
     position: relative;
     z-index: 11;
 }
@@ -336,20 +336,20 @@ margin-top: 20px;
     z-index: 10;
 }
 
-.camclients-captains{}
-.camclients-captains .captains-profile{}
-.camclients-captains .captains-images{}
-.camclients-captains .captains-images img{}
-.camclients-captains .captains-details{}
-.camclients-captains .captains-details h3{
+.pyirates-captains{}
+.pyirates-captains .captains-profile{}
+.pyirates-captains .captains-images{}
+.pyirates-captains .captains-images img{}
+.pyirates-captains .captains-details{}
+.pyirates-captains .captains-details h3{
     font-size: 15px;
     color: #fff;
     transition: 0.3s;
 }
-.camclients-captains .captains-details h3:hover{
+.pyirates-captains .captains-details h3:hover{
     color: #FF2363;
 }
-.camclients-captains .captains-details h6{
+.pyirates-captains .captains-details h6{
     font-size: 12px;
     color: #EF377A;
 }
@@ -370,17 +370,17 @@ margin-top: 20px;
 .captains-details .video-icon{
     border-radius: 25px 25px 10px 25px;
 }
-.camclients-feed{}
-.camclients-feed .feed-content{}
-.camclients-feed .feed-content .card {
+.pyirates-feed{}
+.pyirates-feed .feed-content{}
+.pyirates-feed .feed-content .card {
     background-color: #FFFFFF26;
     padding: 10px;
     border-radius: 25px;
 }
-.camclients-feed .feed-content .card-image{
+.pyirates-feed .feed-content .card-image{
     position:relative;
 }
-.camclients-feed .feed-content .card-image h4 {
+.pyirates-feed .feed-content .card-image h4 {
     position: absolute;
     top: 10px;
     left: 15px;
@@ -388,20 +388,20 @@ margin-top: 20px;
     font-weight: 500;
     color: #EF377A;
 }
-.camclients-feed .feed-content .card-image img{}
-.camclients-feed .feed-content .card-content{}
-.camclients-feed .feed-content .card-content .card-profile img {
+.pyirates-feed .feed-content .card-image img{}
+.pyirates-feed .feed-content .card-content{}
+.pyirates-feed .feed-content .card-content .card-profile img {
     width: 100% !important;
     border-radius: 50%;
     margin-left: 10px;
 }   
-.camclients-feed .feed-content .card-content p {
+.pyirates-feed .feed-content .card-content p {
     font-size: 12px;
     font-weight: 400;
     color: #fff;
     margin-left: 17px;
 }
-.camclients-feed .feed-content .card-content .white-icon{
+.pyirates-feed .feed-content .card-content .white-icon{
     font-size: 15px;
     display: inline-block;
     padding: 4px 8px;
@@ -411,7 +411,7 @@ margin-top: 20px;
     border-radius: 10px 25px 25px 25px;
     color: #A19221;
 }
-.camclients-feed .feed-content .card-content .green-icon{
+.pyirates-feed .feed-content .card-content .green-icon{
     font-size: 15px;
     display: inline-block;
     padding: 4px 8px;
@@ -421,7 +421,7 @@ margin-top: 20px;
     border-radius: 25px 25px 25px 10px;
     color: #0B8B3E;
 }
-.camclients-feed .feed-content .card-content .video-icon{
+.pyirates-feed .feed-content .card-content .video-icon{
     font-size: 15px;
     display: inline-block;
     padding: 4px 8px;
@@ -448,24 +448,24 @@ margin-top: 20px;
     border: none;
     text-align: center;
 }
-.camclients-footer{
+.pyirates-footer{
     background: rgb(21,31,48);
     background: linear-gradient(180deg, rgba(21,31,48,1) 35%, rgba(19,23,32,1) 100%);
 }
-.camclients-footer .footer-logo{}
-.camclients-footer .footer-logo img{
+.pyirates-footer .footer-logo{}
+.pyirates-footer .footer-logo img{
     width: 50%;
     margin-bottom: 20px;
 }
-.camclients-footer .footer-text{}
-.camclients-footer .footer-text p{
+.pyirates-footer .footer-text{}
+.pyirates-footer .footer-text p{
     font-family: inter;
     font-size: 14px;
     font-weight: 400;
     color: #E0E0E0;
 }
-.camclients-footer .footer-social{}
-.camclients-footer .footer-social span {
+.pyirates-footer .footer-social{}
+.pyirates-footer .footer-social span {
     font-size: 20px;
     display: inline-block;
     height: 35px;
@@ -474,23 +474,23 @@ margin-top: 20px;
     line-height: 37px;
     border-radius: 50%;
 }
-.camclients-footer .footer-social .facebook {
+.pyirates-footer .footer-social .facebook {
     color: #fff;
     background: #3B5998;
 }
-.camclients-footer .footer-social .twitter {
+.pyirates-footer .footer-social .twitter {
     color: #fff;
     background: #55ACEE;
 }
-.camclients-footer .footer-social .insta {
+.pyirates-footer .footer-social .insta {
     color: #000;
     background: #fff;
 }
-.camclients-footer .footer-social .vk {
+.pyirates-footer .footer-social .vk {
     color: #fff;
     background: #4C6C91;
 }
-.camclients-footer .footer-social .tiktok {
+.pyirates-footer .footer-social .tiktok {
     color: #fff;
     background: #010101;
 }
@@ -512,8 +512,11 @@ margin-top: 20px;
     color: #fff;
     font-family: inter;
     font-size: 14px;
+    transition: 0.3s;
 }
-
+.footer-links ul li a:hover{
+    color: #EF377A;
+}
 .copyright{
     border-top: 1px solid #172337;
     
@@ -530,4 +533,9 @@ margin-top: 20px;
     font-size: 14px;
     font-weight: 400;
     padding: 0 10px;
+    transition: 0.3s;
+}
+
+.copyright a:hover{
+    color: #EF377A;
 }
